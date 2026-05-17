@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                bat 'docker run -d -p 3000:3000 simple-task-app'
+                bat 'docker run -d -p 3002:3000 simple-task-app'
             }
         }
     }
