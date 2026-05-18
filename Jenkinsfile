@@ -22,7 +22,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                bat 'docker run -d --name simple-task-container -p 3002:3000 simple-task-app'
+                bat 'docker run -d --name simple-task-container -p 3003:3000 simple-task-app'
             }
         }
     }
